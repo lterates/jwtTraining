@@ -1,3 +1,4 @@
+require('dotenv').config();
 const port = 3000;
 //EXPRESS
 const express = require('express');
@@ -34,11 +35,12 @@ const auth = function (req, res, next) {
 }
 
 //USE
+
 app.use(express.json());
+app.use(auth)
 app.use('/students', students);
 app.use('/teachers', teachers);
 app.use('/login', login)
-app.use(auth)
 
 //GETTERS E POSTS
 app.get('/', (req, res) => {
