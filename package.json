@@ -1,0 +1,17 @@
+{
+  "name": "rest",
+  "version": "1.0.0",
+  "description": "example exercise for an express server using a stack of express-validator, mongoose and nodemon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eduardo Ferreira",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.13"
+  }
+}
