@@ -60,5 +60,5 @@ app.get('/teachers', (req, res) => {
 
 //IMPRIMIR O LINK NA CONSOLA PARA FÁCIL ACESSO
 app.listen(port, () => {
-    console.log(`Server is running at http://localhost:${port}/login`)
+    console.log(`Server is running at http://localhost:${port}`)
 })
